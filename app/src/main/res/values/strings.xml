@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BTL_Android</string>
+    <string name="strTxtChaoMung">Monster English</string>
+    <string name="strbtnHocTuVung">Từ Vựng</string>
+    <string name="strbtnHocNguPhap">Ngữ Pháp</string>
+    <string name="strtxtChudetuvung">Chọn chủ đề từ vựng cần học</string>
+    <string name="strMotaAnhchude">hinh chu de</string>
+    <string name="hinhtuvung">Hinh tu vung</string>
+    <string name="textTenTV">Tên </string>
+    <string name="nghiacuatu">Nghĩa</string>
+    <string name="Motaamthanhtu">Amthanhtu</string>
+    <string name="btntestchuyensangtrang">Chuyen sang trang ben</string>
+    <string name="textdialog">Tên từ</string>
+    <string name="textdialogTenTv">Tên từ</string>
+    <string name="txtdialogPhatAm">Phát âm</string>
+    <string name="txtdilogCachsudung">Cách sử dụng của từ</string>
+    <string name="txtdialogCauvidu">Câu ví dụ</string>
+    <string name="strdialogTenNP">Tên Ngữ Pháp</string>
+    <string name="strdialogYnghiaCachSD">Ý nghĩa cách sử dụng</string>
+    <string name="strdialogVidu">Vi dụ</string>
+    <string name="strdilogVidutiengviet">Ví dụ tiếng Việt</string>
+    <string name="txtIntro">Một sản phẩm của Nhóm 12_MAD_Thầy Hoàng Anh</string>
+    <string name="strdialoLoaiTu">v</string>
+    <string name="strTenNguPhap">Tên Ngữ Pháp</string>
+</resources>

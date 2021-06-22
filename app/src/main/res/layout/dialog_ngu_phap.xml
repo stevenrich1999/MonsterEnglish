@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/hinh_nen_mua_dong"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strdialogTenNP"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="120dp"
+        android:id="@+id/txtdilogtennguphap"
+        android:gravity="center"
+        />
+    <TextView
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="35dp"
+
+        android:text="@string/strdialogYnghiaCachSD"
+        android:id="@+id/txtYnghiaCachsudung"
+        android:layout_below="@+id/txtdilogtennguphap"
+
+        />
+    <TextView
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="35dp"
+
+        android:text="@string/strdialogVidu"
+        android:id="@+id/txtdialogViduNP"
+        android:layout_below="@+id/txtYnghiaCachsudung"
+
+        />
+
+
+    <TextView
+        android:textColor="#FFEB3B"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strdilogVidutiengviet"
+        android:textStyle="italic"
+        android:layout_below="@+id/txtdialogViduNP"
+        android:id="@+id/txtdialogViduNPTV"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        />
+</RelativeLayout>

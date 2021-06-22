@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/hinh_nen_1"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#E2FFFFFF"
+        android:textSize="26sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textdialogTenTv"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="50dp"
+
+        android:id="@+id/txtdialogTenTv"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/txtLoaitu"
+
+        android:textColor="#E2FFFFFF"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/strdialoLoaiTu"
+        android:layout_toRightOf="@+id/txtdialogTenTv"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/txtdialogTenTv"
+        />
+    <TextView
+        android:textColor="#E2FFFFFF"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="50dp"
+        android:gravity="center"
+        android:text="@string/txtdialogPhatAm"
+        android:id="@+id/txtPhatAm"
+        android:layout_below="@+id/txtdialogTenTv"
+
+        />
+    <ImageView
+        android:id="@+id/imageAmthanhdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/txtLoaitu"
+        android:layout_toRightOf="@+id/txtLoaitu"
+        android:contentDescription="@string/Motaamthanhtu"
+        android:src="@drawable/volume_color" />
+
+    <TextView
+        android:textColor="#FFEB3B"
+        android:textSize="22sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtdialogCauvidu"
+        android:textStyle="italic"
+        android:layout_below="@+id/txtPhatAm"
+        android:id="@+id/txtCauvidu"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        />
+</RelativeLayout>
